@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Warlock Flavour Pack</name>
+    <author>MrSamuelStreamer</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>MSS.WFP</packageId>
+    <description>A flavour pack for Mr Samuel Streamer's Rimworld Playthroughs</description>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>b4ttl3m3ds.simplebabycarry</li>
+        <li>vanillaexpanded.vpsycastse</li>
+    </loadAfter>
+</ModMetaData>

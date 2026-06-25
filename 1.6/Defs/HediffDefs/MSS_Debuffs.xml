@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+    <defName>MSS_DarkLord_Debuff</defName>
+    <label>The Siphon</label>
+    <description>The result of a life-transfer spell that misfired. Instead of the warlock siphoning the remaining years of life from the infant, it has irrevocably linked the warlock and it's target, leaving both in a state of perpetual unlife; existing in a liminal space between life and death. The child has become an open conduit to the energies of death, acting as a door stop for the void energies to pass through.\n\nWhen together, the caster will naturally siphon the excess energies flowing through the child, but if separate, both the caster and the child will rapidly begin to deteriorate.</description>
+    <descriptionShort>The Siphon (Warlock)</descriptionShort>
+    <defaultLabelColor>(0.9, 0.0, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>false</priceImpact>
+    <initialSeverity>1</initialSeverity>
+    <minSeverity>1</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <setMax>0.35</setMax>
+            </li>
+          </capMods>
+        <statFactors>
+          <PsychicEntropyMax>-1.65</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>-1.25</PsychicEntropyRecoveryRate>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Child -->
+  <HediffDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+    <defName>MSS_Conduit</defName>
+    <label>The Conduit</label>
+    <description>The result of a life-transfer spell that misfired. Instead of the warlock siphoning the remaining years of life from the infant, it has irrevocably linked the warlock and it's target, leaving both in a state of perpetual unlife; existing in a liminal space between life and death. The child has become an open conduit to the energies of death, acting as a door stop for the void energies to pass through.\n\nWhen together, the caster will naturally siphon the excess energies flowing through the child, but if separate, both the caster and the child will rapidly begin to deteriorate.</description>
+    <descriptionShort>The Conduit (Child)</descriptionShort>
+    <defaultLabelColor>(0.9, 0.0, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>false</priceImpact>
+    <initialSeverity>1</initialSeverity>
+    <minSeverity>1</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>12.5</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>20.625</PsychicEntropyRecoveryRate>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
