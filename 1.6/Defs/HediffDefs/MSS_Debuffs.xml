@@ -15,15 +15,15 @@
     <stages>
       <li>
         <minSeverity>1</minSeverity>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <setMax>0.35</setMax>
-            </li>
-          </capMods>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset> <!-- offsets the initial hit but not fully-->
+          </li>
+        </capMods>
         <statFactors>
-          <PsychicEntropyMax>-1.65</PsychicEntropyMax>
-          <PsychicEntropyRecoveryRate>-1.25</PsychicEntropyRecoveryRate>
+          <PsychicEntropyMax>-0.65</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>-0.25</PsychicEntropyRecoveryRate>
         </statFactors>
       </li>
     </stages>
