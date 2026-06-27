@@ -22,7 +22,7 @@
           </li>
         </capMods>
         <statFactors>
-          <PsychicEntropyRecoveryRate>-0.15</PsychicEntropyRecoveryRate>
+          <PsychicEntropyRecoveryRate>0.85</PsychicEntropyRecoveryRate>
         </statFactors>
       </li>
     </stages>
