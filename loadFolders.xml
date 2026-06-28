@@ -3,5 +3,6 @@
 	<v1.6>
 		<li>1.6</li>
 		<li IfModActive="b4ttl3m3ds.simplebabycarry">Compatibility/b4ttl3m3ds.simplebabycarry</li>
+		<li IfModActive="ellit.IlkoftheOldOnes">Compatibility/ellit.IlkoftheOldOnes</li>
 	</v1.6>
 </loadFolders>
