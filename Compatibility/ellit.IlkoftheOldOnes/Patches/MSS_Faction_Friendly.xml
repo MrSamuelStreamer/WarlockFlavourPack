@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <Patch>
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/FactionDef[@Name="Ilk"]/permanentEnemyToEveryoneExcept</xpath>
+    <xpath>Defs/FactionDef[defName="Ilk"]/permanentEnemyToEveryoneExcept</xpath>
     <value>
       <permanentEnemyToEveryoneExcept>
         <li>TribeCivil</li>
