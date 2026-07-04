@@ -5,7 +5,7 @@
 		<li>1.6</li>
 		<li IfModActive="b4ttl3m3ds.simplebabycarry">Compatibility/b4ttl3m3ds.simplebabycarry</li>
 		<li IfModActive="ellit.IlkoftheOldOnes">Compatibility/ellit.IlkoftheOldOnes</li>
-		<li IfModActive="botchjob.profaned">Compatibility/botchjob.profaned</li>
-		<li IfModActive="turkler.pollutingfactions">Compatibility/turkler.pollutingfactions</li>
+		<li IfModActive="BotchJob.Profaned,Okagrim.duskwood">Compatibility/BotchJob.Profaned+Okagrim.duskwood</li>
+		<li IfModActive="BotchJob.Profaned,pphhyy.lightlessempyrean">Compatibility/BotchJob.Profaned+pphhyy.lightlessempyrean</li>
 	</v1.6>
 </loadFolders>

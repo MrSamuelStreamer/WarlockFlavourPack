@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <WarlockFlavourPack_SettingsCategory>Warlock Flavour Pack</WarlockFlavourPack_SettingsCategory>
+    <WarlockFlavourPack_Settings_VerboseLogging>Verbose logging</WarlockFlavourPack_Settings_VerboseLogging>
+    <WarlockFlavourPack_Settings_VerboseLogging_Tooltip>When enabled, the mod emits extra diagnostic messages to the log.</WarlockFlavourPack_Settings_VerboseLogging_Tooltip>
+    <WarlockFlavourPack_Settings_MysticBondEnabled>Mystic bond floating baby</WarlockFlavourPack_Settings_MysticBondEnabled>
+    <WarlockFlavourPack_Settings_MysticBondEnabled_Tooltip>When enabled, a baby that is being carried by a pawn they are psychically bonded to (via the vanilla psychic bond hediff) floats alongside the carrier on a green witchlight tether, instead of being drawn attached to the carrier's body. Requires SimpleBabyCarry.</WarlockFlavourPack_Settings_MysticBondEnabled_Tooltip>
+</LanguageData>

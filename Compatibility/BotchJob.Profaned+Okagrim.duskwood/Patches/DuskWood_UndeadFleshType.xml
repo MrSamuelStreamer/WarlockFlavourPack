@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Routes Dusk Wood Biome's cursed animals into Profaned's "Undead" corpse category
+  so "One with Death" recipes can consume them.
+
+  Mechanism: RimWorld auto-generates Corpse_<pawn> ThingDefs and puts them in the
+  ThingCategory named by the pawn's FleshTypeDef.corpseCategory.
+  BotchJob_UndeadFlesh -> BotchJob_CorpsesUndead (parent: Corpses, not CorpsesAnimal).
+
+  Sidesteps the ParentName-swap approach because those cursed animals inherit from
+  mixed bases (AnimalThingBase / BaseBear / ThingBaseWolf / BaseInsect); swapping
+  ParentName strips species-specific body/verbs/tools/sounds.
+
+  See github.com/MrSamuelStreamer/WarlockFlavourPack/issues/3
+-->
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Boar_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Deer_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Bear_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Wolf_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Spider_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Skeleton_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DeathKnight_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DeathKnightChampion_Cursed"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+</Patch>
