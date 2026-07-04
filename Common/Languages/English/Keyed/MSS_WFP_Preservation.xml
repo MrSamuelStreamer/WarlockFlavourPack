@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MSS_WFP_Preserve_Label>Preserve corpse</MSS_WFP_Preserve_Label>
+    <MSS_WFP_Preserve_Desc>Wrap this corpse in herbs. A hauler will bring 3 herbal medicine and spend about 10 minutes preparing it. Once preserved, the corpse will not rot or stink, but yields nothing when butchered.</MSS_WFP_Preserve_Desc>
+
+    <MSS_WFP_CancelPreserve_Label>Cancel preservation</MSS_WFP_CancelPreserve_Label>
+    <MSS_WFP_CancelPreserve_Desc>Cancel the pending preservation. Any hauler currently working on this corpse will drop the herbs and stop.</MSS_WFP_CancelPreserve_Desc>
+
+    <MSS_WFP_PreserveJob_Report>wrapping {0}.</MSS_WFP_PreserveJob_Report>
+
+</LanguageData>

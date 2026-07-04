@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <WorkGiverDef>
+        <defName>MSS_PreserveCorpseWorkGiver</defName>
+        <label>preserve corpse</label>
+        <giverClass>WarlockFlavourPack.Preservation.WorkGiver_PreserveCorpse</giverClass>
+        <workType>Hauling</workType>
+        <priorityInType>50</priorityInType>
+        <verb>wrap</verb>
+        <gerund>wrapping</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <emergency>false</emergency>
+        <directOrderable>true</directOrderable>
+    </WorkGiverDef>
+
+</Defs>

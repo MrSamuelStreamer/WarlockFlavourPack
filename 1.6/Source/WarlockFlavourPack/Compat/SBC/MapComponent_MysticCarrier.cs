@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using RimWorld;
+using RimWorld.Planet;
 using UnityEngine;
 using Verse;
 
@@ -80,6 +81,10 @@ public class MapComponent_MysticCarrier : MapComponent
     {
         // Cheap guards first — this runs every frame on every map.
         if (map == null || Find.CurrentMap != map) return;
+        // Suppress while the world map is showing — Find.CurrentMap still points at
+        // the last active map behind the globe overlay, so without this guard the
+        // floating baby + tether get drawn on top of the world view.
+        if (WorldRendererUtility.WorldRendered) return;
         IReadOnlyList<Pawn> pawns = map.mapPawns?.AllPawnsSpawned;
         if (pawns == null || pawns.Count == 0) return;
 
