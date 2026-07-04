@@ -71,4 +71,9 @@
         <SoundsFiles Include="../../../Sounds/**" />
         <ExtraFiles Include="../../../loadFolders.xml" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="..\..\..\.gitignore">
+        <Link>WarlockFlavourPack\.gitignore</Link>
+      </Content>
+    </ItemGroup>
 </Project>

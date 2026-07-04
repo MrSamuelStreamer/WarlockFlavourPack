@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+  <!-- Future def names to test after Boar_Cursed: Deer_Cursed, Bear_Cursed, Wolf_Cursed, Spider_Cursed, Skeleton_Cursed, DeathKnight_Cursed, DeathKnightChampion_Cursed, pphhyy_LightlessEmpyrean_Shade, pphhyy_LightlessEmpyrean_Lemures -->
+
+  <!-- <Operation Class="PatchOperationAttributeSet">
+    <xpath>/Defs/ThingDef[defName="Boar_Cursed"]/@ParentName</xpath>
+    <value>BotchJob_UndeadAnimalBase</value>
+  </Operation> -->
+<!-- 
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Boar_Cursed"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BotchJob_UndeadAnimalBase</value>
+  </Operation> -->
+
+</Patch>

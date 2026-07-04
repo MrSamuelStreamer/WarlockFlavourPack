@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BiomeDef[defName="Duskwood"]/baseWeatherCommonalities</xpath>
+    <value>
+      <baseWeatherCommonalities>
+			  <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">10</GrayPall>
+        <Overcast MayRequire="Ludeon.RimWorld.Odyssey">2</Overcast>
+        <Clear>10</Clear>
+    	</baseWeatherCommonalities>
+    </value>
+  </Operation>
+</Patch>
