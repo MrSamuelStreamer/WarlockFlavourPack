@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Routes Lightless Empyrean Reborn's Shade / Lemures into Profaned's "Undead"
+  corpse category so "One with Death" recipes can consume them.
+
+  Mechanism: RimWorld auto-generates Corpse_<pawn> ThingDefs and puts them in the
+  ThingCategory named by the pawn's FleshTypeDef.corpseCategory.
+  BotchJob_UndeadFlesh -> BotchJob_CorpsesUndead (parent: Corpses, not CorpsesAnimal).
+
+  See github.com/MrSamuelStreamer/WarlockFlavourPack/issues/3
+-->
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="pphhyy_LightlessEmpyrean_Shade"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="pphhyy_LightlessEmpyrean_Lemures"]/race</xpath>
+    <value>
+      <fleshType>BotchJob_UndeadFlesh</fleshType>
+      <bloodDef>BotchJob_Filth_Undead</bloodDef>
+    </value>
+  </Operation>
+
+</Patch>
