@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>El's Ilk of the Old Gods</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/FactionDef[defName="Ilk"]</xpath>
+					<value>
+						<li Class="PollutingFactions.PollutingFactionsModExtension">
+							<spreadsPollution>true</spreadsPollution>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+  <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Empire Refactored</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/FactionDef[defName="PColony"]</xpath>
+					<value>
+						<li Class="PollutingFactions.PollutingFactionsModExtension">
+							<spreadsPollution>true</spreadsPollution>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
