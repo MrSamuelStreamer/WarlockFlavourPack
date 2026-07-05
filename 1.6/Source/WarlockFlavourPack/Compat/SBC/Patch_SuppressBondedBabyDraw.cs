@@ -37,14 +37,23 @@ public static class Patch_SuppressBondedBabyDraw
 
     private static bool _buildIdLogged;
 
+    // Harmony calls Prepare() before touching TargetMethods/PatchAll. Returning
+    // false skips this patch class entirely — this is the vendor-recommended
+    // gate for "only patch when this optional mod is loaded". Without it,
+    // some Harmony builds treat an empty TargetMethods() as
+    // "Undefined target method" and fail the whole PatchAll pass.
+    public static bool Prepare()
+    {
+        return GenTypes.GetTypeInAnyAssembly(SbcTypeName) != null;
+    }
+
     public static IEnumerable<MethodBase> TargetMethods()
     {
         Type sbc = GenTypes.GetTypeInAnyAssembly(SbcTypeName);
         if (sbc == null)
         {
-            // SBC absent — don't emit any targets. Harmony treats an empty enumerable as
-            // "nothing to patch" and skips this class silently. Compat folder is also
-            // IfModActive-gated so this branch is only hit if the user unloads SBC mid-session.
+            // Belt-and-braces: Prepare() should already have skipped us, but
+            // if a caller invokes TargetMethods() out-of-band, yield nothing.
             yield break;
         }
 

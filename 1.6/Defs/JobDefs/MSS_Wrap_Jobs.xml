@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <JobDef>
+        <defName>MSS_PreserveCorpse</defName>
+        <driverClass>WarlockFlavourPack.Preservation.JobDriver_PreserveCorpse</driverClass>
+        <reportString>wrapping TargetA.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+        <allowOpportunisticPrefix>false</allowOpportunisticPrefix>
+    </JobDef>
+
+</Defs>
