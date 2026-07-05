@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="LiquefyCorpseAtCrematorium"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+          <li>ElectricCrematorium</li>
+          <li>FueledCrematorium</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="LiquefyCorpseAtCrematoriumNoStrip"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+          <li>ElectricCrematorium</li>
+          <li>FueledCrematorium</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="ExtractIronFromCorpseAtCrematorium"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+          <li>ElectricCrematorium</li>
+          <li>FueledCrematorium</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="ExtractIronFromCorpseAtCrematoriumNoStrip"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+          <li>ElectricCrematorium</li>
+          <li>FueledCrematorium</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="AcidifyCorpseAtCrematorium"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+          <li>ElectricCrematorium</li>
+          <li>FueledCrematorium</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="AcidifyCorpseAtCrematoriumNoStrip"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+          <li>ElectricCrematorium</li>
+          <li>FueledCrematorium</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+</Patch>
