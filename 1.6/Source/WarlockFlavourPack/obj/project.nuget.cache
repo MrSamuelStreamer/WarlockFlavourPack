@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZpTX7C+6MZU=",
+  "success": true,
+  "projectFilePath": "/home/keyz/.steam/steam/steamapps/common/RimWorld/Mods/WarlockFlavourPack/1.6/Source/WarlockFlavourPack/WarlockFlavourPack.csproj",
+  "expectedPackageFiles": [
+    "/home/keyz/.nuget/packages/lib.harmony/2.4.2/lib.harmony.2.4.2.nupkg.sha512",
+    "/home/keyz/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/keyz/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

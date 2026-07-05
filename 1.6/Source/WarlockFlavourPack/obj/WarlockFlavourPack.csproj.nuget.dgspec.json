@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/WarlockFlavourPack/1.6/Source/WarlockFlavourPack/WarlockFlavourPack.csproj": {}
+  },
+  "projects": {
+    "/home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/WarlockFlavourPack/1.6/Source/WarlockFlavourPack/WarlockFlavourPack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/WarlockFlavourPack/1.6/Source/WarlockFlavourPack/WarlockFlavourPack.csproj",
+        "projectName": "WarlockFlavourPack",
+        "projectPath": "/home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/WarlockFlavourPack/1.6/Source/WarlockFlavourPack/WarlockFlavourPack.csproj",
+        "packagesPath": "/home/keyz/.nuget/packages/",
+        "outputPath": "/home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/WarlockFlavourPack/1.6/Source/WarlockFlavourPack/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/keyz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/keyz/.dotnet/sdk/10.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

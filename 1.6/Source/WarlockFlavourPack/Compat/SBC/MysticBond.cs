@@ -64,6 +64,10 @@ public static class MysticBond
         if (bonded == null) return false;
         if (!bonded.DevelopmentalStage.Baby()) return false;
 
+        // Vanilla "Put Somewhere Safe" puts the baby in carryTracker — don't
+        // draw the ghost portrait on top of the vanilla in-arms render.
+        if (wearer.carryTracker?.CarriedThing == bonded) return false;
+
         Pawn carried = TryGetCarriedBaby(wearer);
         if (carried == null || carried != bonded) return false;
 
