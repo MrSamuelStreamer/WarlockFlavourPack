@@ -15,24 +15,17 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationReplace" MayRequire="salvador143.mthings.geysers">
     <xpath>Defs/ThingDef[defName="MThingsGeysersPsyfocusBooster"]/size</xpath>
     <value>
-      <size>(1,1)</size>
+      <size>(3,3)</size>
     </value>
   </Operation>
   
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationReplace" MayRequire="salvador143.mthings.geysers">
     <xpath>Defs/ThingDef[defName="MThingsGeysersPsyfocusBooster"]/graphicData/drawSize</xpath>
     <value>
       <drawSize>(3,3)</drawSize>
-    </value>
-  </Operation>
-    
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="MThingsGeysersPsyfocusBooster"]</xpath>
-    <value>
-      <uiIconScale>0.35</uiIconScale>
     </value>
   </Operation>
 
