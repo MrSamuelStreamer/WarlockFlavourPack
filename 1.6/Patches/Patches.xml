@@ -16,6 +16,14 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace" MayRequire="salvador143.mthings.geysers">
+    <xpath>Defs/ThingDef[@Name="MThingsGeysersGeyserBuildingBase"]/size</xpath>
+    <value>
+      <size>(3,3)</size>
+    </value>
+  </Operation>
+
+  <!-- one gets size from inheritance, one defines it anyway *shrug* -->
+  <Operation Class="PatchOperationReplace" MayRequire="salvador143.mthings.geysers">
     <xpath>Defs/ThingDef[defName="MThingsGeysersPsyfocusBooster"]/size</xpath>
     <value>
       <size>(3,3)</size>
@@ -24,6 +32,13 @@
   
   <Operation Class="PatchOperationReplace" MayRequire="salvador143.mthings.geysers">
     <xpath>Defs/ThingDef[defName="MThingsGeysersPsyfocusBooster"]/graphicData/drawSize</xpath>
+    <value>
+      <drawSize>(3,3)</drawSize>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="salvador143.mthings.geysers">
+    <xpath>Defs/ThingDef[defName="MThingsGeysersCore"]/graphicData/drawSize</xpath>
     <value>
       <drawSize>(3,3)</drawSize>
     </value>
