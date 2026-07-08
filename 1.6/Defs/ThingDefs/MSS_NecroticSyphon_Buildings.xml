@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MSS_NecroticSyphon</defName>
+    <label>necrotic syphon</label>
+    <description>A skull mounted on a spike, humming with necrotic energy. Corpses within its range are consumed and converted into charge, which sustains nearby crops regardless of light, temperature, or soil fertility. While charged, crops in range are guaranteed to grow at a minimum rate of 75%, though the syphon's unnatural influence slightly diminishes the benefit of fertile soil.</description>
+    <thingClass>WarlockFlavourPack.NecroticSyphon.Building_NecroticSyphon</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/MSS_NecroticSyphon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0, 0, 0.5)</drawOffset>
+    </graphicData>
+    <uiIconPath>Things/Building/MSS_NecroticSyphon</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <fillPercent>0.2</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(1,1)</size>
+    <tickerType>Rare</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <designationCategory>Misc</designationCategory>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>0.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <costList>
+      <Skull>1</Skull>
+      <Steel>50</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <comps>
+      <li Class="WarlockFlavourPack.NecroticSyphon.CompProperties_NecroticSyphon">
+        <radius>7</radius>
+        <ticksPerCorpse>90000</ticksPerCorpse>
+        <minGrowthRate>0.75</minGrowthRate>
+        <fertilityDebuff>0.9</fertilityDebuff>
+        <chanceToConsumeCorpsePerRareTick>0.1</chanceToConsumeCorpsePerRareTick>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

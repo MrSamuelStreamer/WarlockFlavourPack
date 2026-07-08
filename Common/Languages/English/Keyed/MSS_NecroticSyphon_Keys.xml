@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MSS_NecroticSyphon_ChargeRemaining>Charge remaining: {0} days</MSS_NecroticSyphon_ChargeRemaining>
+  <MSS_NecroticSyphon_Uncharged>Uncharged — place corpses within range to charge</MSS_NecroticSyphon_Uncharged>
+  <MSS_NecroticSyphon_CreateStockpile_Label>Create corpse stockpile</MSS_NecroticSyphon_CreateStockpile_Label>
+  <MSS_NecroticSyphon_CreateStockpile_Desc>Creates a stockpile zone covering the syphon's range, pre-set to accept only corpses.</MSS_NecroticSyphon_CreateStockpile_Desc>
+  <MSS_NecroticSyphon_CreateGrowZone_Label>Create grow zone</MSS_NecroticSyphon_CreateGrowZone_Label>
+  <MSS_NecroticSyphon_CreateGrowZone_Desc>Creates a growing zone covering the syphon's range.</MSS_NecroticSyphon_CreateGrowZone_Desc>
+  <MSS_NecroticSyphon_NecroticEnergies>sustained by necrotic energies</MSS_NecroticSyphon_NecroticEnergies>
+</LanguageData>

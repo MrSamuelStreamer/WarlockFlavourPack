@@ -70,6 +70,12 @@
         <CompatibilityFiles Include="../../../Compatibility/**" />
         <SoundsFiles Include="../../../Sounds/**" />
         <ExtraFiles Include="../../../loadFolders.xml" />
+        <CommonFiles Update="..\..\..\Common\Languages\English\Keyed\MSS_NecroticSyphon_Keys.xml">
+          <Link>WarlockFlavourPack\Common\Languages\English\Keyed\MSS_NecroticSyphon_Keys.xml</Link>
+        </CommonFiles>
+        <ReleaseFiles Update="..\..\Defs\ThingDefs\MSS_NecroticSyphon_Buildings.xml">
+          <Link>WarlockFlavourPack\1.6\Defs\ThingDefs\MSS_NecroticSyphon_Buildings.xml</Link>
+        </ReleaseFiles>
     </ItemGroup>
     <ItemGroup>
       <Content Include="..\..\..\.gitignore">
