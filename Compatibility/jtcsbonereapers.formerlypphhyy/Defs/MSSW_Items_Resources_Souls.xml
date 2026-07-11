@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <RecipeDef>
+    <defName>mssp_splitGreaterSoul</defName>
+    <label>reduce soul</label>
+    <description>Reduce a greater soul into a lesser soul.</description>
+    <jobString>Reducing soul.</jobString>
+    <workAmount>350</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>pphhyy_GreaterSoul</uiIconThing>
+    <recipeUsers>
+      <li>pphhyy_BoneTitheNexus</li>
+    </recipeUsers>
+      <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+              <li>pphhyy_GreaterSoul</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
+    </products>
+    <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
+  </RecipeDef>
+</Defs>

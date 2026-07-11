@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+  <!-- Temporary(?) workaround to fix OwD incompatibility with "No Job Authors" mod -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ExperimentResultsI"]/workAmount</xpath>
+    <value>
+      <workAmount>1</workAmount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ExperimentResultsII"]/workAmount</xpath>
+    <value>
+      <workAmount>1</workAmount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ExperimentResultsIII"]/workAmount</xpath>
+    <value>
+      <workAmount>1</workAmount>
+    </value>
+  </Operation>
+</Patch>

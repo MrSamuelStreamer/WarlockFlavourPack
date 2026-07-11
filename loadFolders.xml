@@ -9,5 +9,7 @@
 		<li IfModActive="BotchJob.Profaned,Okagrim.duskwood">Compatibility/BotchJob.Profaned+Okagrim.duskwood</li>
 		<li IfModActive="BotchJob.Profaned,pphhyy.lightlessempyrean">Compatibility/BotchJob.Profaned+pphhyy.lightlessempyrean</li>
 		<li IfModActive="hahke.honestcorpse">Compatibility/hahke.honestcorpse</li>
+		<li IfModActive="jtcsbonereapers.formerlypphhyy">Compatibility/jtcsbonereapers.formerlypphhyy</li>
+		<li IfModActive="6224y.onewithdeath">Compatibility/6224y.onewithdeath</li>
 	</v1.6>
 </loadFolders>
